@@ -1,0 +1,55 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+@font-face {
+  font-family: 'Adieu';
+  src: url('/static/Adieu-Black.otf');
+}
+
+header {
+  height: 400px;
+}
+
+h1 {
+  font-family: 'Adieu';
+  text-transform: uppercase;
+  text-shadow: 4px 3px 0px #000;
+  letter-spacing: 3px;
+}
+
+h2,h3 {
+  font-family: 'Adieu';
+  text-transform: uppercase;
+}
+
+.masonry { /* Masonry container */
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  header {
+    height: 300px;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 0px #000;
+    letter-spacing: 3px;
+  }
+
+  .masonry { /* Masonry container */
+    column-count: 2;
+    column-gap: 1em;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "kennetsplat",
+  "version": 2,
+  "alias": "kennetsplat.se",
+  "builds": [
+    { "src": "package.json", "use": "@now/next" }
+  ]
+}
