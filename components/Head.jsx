@@ -13,6 +13,7 @@ export default () => (
     <meta property="og:image" content="/static/kennets-2.jpg" />
     <meta property="og:description" content="Kennets plåt är din lokala plåtslagare i Falkenberg. Företaget startades av Kennet Larsson 1983 och togs över av Björn Benjaminsson 2010 och har fortsatt att drivas i samma anda där målsättningen är ett väl utfört arbete och med det nöjda kunder." />
     <meta name="description" content="Kennets plåt är din lokala plåtslagare i Falkenberg. Företaget startades av Kennet Larsson 1983 och togs över av Björn Benjaminsson 2010 och har fortsatt att drivas i samma anda där målsättningen är ett väl utfört arbete och med det nöjda kunder."/>
-    
+    <meta name="google-site-verification" content="0JDqRo_eNJe7KDtINSEUCCoveCXmNINqOTXZEJ6sgNw" />
+
   </NextHead>
 )
