@@ -79,13 +79,16 @@ function Home() {
 
         <div className="flex mt-12 mb-12 sm:text-center bg-grey-lighter">
           <div className="mx-auto mt-12 mb-12 pb-12 pl-8 sm:pl-0">
+            <div className="bg-grey-light p-3 inline-block">
+              På grund av sjukdom drivs firman tillsvidare av David Erkers.
+            </div>
             <h2 className="text-lg sm:text-2xl mt-8 mb-8">
               Kontakta oss idag
             </h2> 
             <div className="leading-normal w-full flex flex-wrap">
               <div className="inline-block w-full sm:w-1/2">
-                Mail -> kennetsplat@gmail.com<br/>
-                Mobil -> 070-2941584
+                Mail -> daviderkers55@gmail.com<br/>
+                Mobil -> 070-8435110
               </div>
               <div className="inline-block w-full sm:w-1/2 mt-4 sm:mt-0">
                 Tågarp 110, <br/>311 94 Falkenberg, <br/>Sweden
